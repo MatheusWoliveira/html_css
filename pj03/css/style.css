@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* foto de fundo */
+.fundo{
+    width: 100%;
+}
+
+body{
+    background-color: darkgray;
+    font-family: 'Poppins';
+}
+
+/* sobre nós e nossos serviços */
+.container{
+    display: flex;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 35px;
+    justify-content: space-around;
+}
+.sobre-nos{
+    text-align: center;
+    width: 475px;
+}
+.servicos{
+    text-align: center;
+    width: 475px;
+}
+
+/* barra de navegação */
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* rodapé */
+.rodape{
+    padding: 25px;
+    text-align: center;
+}
+
+/* div do mapa */
+.maps{
+    background-color: #23232e;
+    padding: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+/* itens do menu */
+.item1{
+    padding-right: 25px;
+}
+.item3{
+    padding-left: 25px;
+}
+
+/* nav */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23232e;
+    height: 8vh;
+}
+
+/* logo do site */
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: white;
+}
+
+/* links do nav */
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    color: white;
+}
+.nav-list li:hover{
+    color: gray;
+}
+
+/* estilização de texto */
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* link de contato wpp e insta */
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.instagram-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 110px;
+    right: 40px;
+    background-color: #f58529;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.whatsapp-link:hover{
+    color: white;
+    opacity: 75%;
+}
+.instagram-link:hover{
+    color: white;
+    opacity: 75%;
+}
+.fa-whatsapp {
+    margin-top: 16px;
+}
+.fa-instagram {
+    margin-top: 16px;
+}
+
+/* div principal */
+.div{
+    margin: 0;
+    background-color: darkgray;
+}
