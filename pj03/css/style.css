@@ -129,7 +129,7 @@ h1{
     height: 60px;
     bottom: 110px;
     right: 40px;
-    background-color: #f58529;
+    background: linear-gradient(40deg,#833ab4, #e4405f, #fd6542, #405de6);
     color: #fff;
     border-radius: 50px;
     text-align: center;
