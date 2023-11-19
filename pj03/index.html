@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="css\style.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="input.js"></script>
 </head>
 <body>
     <div class="icons">
-        
         <a class="whatsapp-link" href="https://wa.me/+5575983209339" target="_blank"><i class="fa fa-whatsapp"></i></a>
         <a class="instagram-link" href="https://www.instagram.com/abmadvocacia_/" target="_blank"><i class="fa fa-instagram"></i></a>
     </div>
@@ -19,18 +19,30 @@
         <nav>
             <p class="logo">ABM Advocacia</p>
             <div class="menu">
-                <a href="#" class="item1">Inicio</a>
-                <a href="#">Sobre</a>
-                <a href="https://wa.me/+5575983209339" target="_blank" class="item3">Contato</a>
+                <ul>
+                    <li class="nav-item"><a href="#" class="item1">Inicio</a></li>
+                    <li class="nav-item"><a href="#sobre-nos">Sobre</a></li>
+                    <li class="nav-item"> <a href="https://wa.me/+5575983209339" target="_blank" class="item3">Contato</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="midia/menu_white_36dp.svg"></button>
             </div>
         </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="item1">Inicio</a></li>
+                <li class="nav-item"><a href="#sobre-nos" class="item 2">Sobre</a></li>
+                <li class="nav-item"> <a href="https://wa.me/+5575983209339" target="_blank" class="item3">Contato</a></li>
+            </ul>
+        </div>
     </header>
     <div>
         <img class="fundo" src="midia/fundo.jpg" alt="">
     </div>
     <div class="div">
         <div class="container">
-            <div class="sobre-nos">
+            <div id="sobre-nos">
                 <h2>Sobre nós</h2>
                 <p>Somos a força da justiça, uma sociedade formada por três mulheres advogadas comprometidas em lutar pelos seus direitos.</p>
             </div>
