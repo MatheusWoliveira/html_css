@@ -229,3 +229,8 @@ h1{
     margin: 0;
     background-color: darkgray;
 }
+
+#top{
+    position: fixed;
+    width: 100%;
+}
